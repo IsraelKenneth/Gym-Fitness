@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from '../style'
-import {discount, robot, model, arrow} from "../assets"
+import { model} from "../assets"
 import GetStarted from "./GetStarted"
 
 const Hero = () => {
   return (
-    <section id='home' className={`flex md:flex-row flex-col sm:py-0 py-6 `}>
+    <section id='home' className={`flex md:flex-row xs:py-0 flex-col sm:py-0 py-6 `}>
     <div className={`flex flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 w-full`}>
 
         <div className="flex flex-row justify-between items-center ">
@@ -15,7 +15,7 @@ const Hero = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black `}>
+        <p className={`${styles.paragraph} max-w-[470px] xs:text-[14px] mt-5 text-black `}>
           Upgrade your style staples with this week's most hyped designs Give in to those new-season need-new-clothes cravings with our range of T-shirts, jeans and jackets.
         </p>
 
@@ -23,8 +23,8 @@ const Hero = () => {
 
         </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-8 relative`}>
-        <img src={model} alt="billing" className="w-[100%] h-[100%] relative z-[5] justify-end items-end object-contain" />
+      <div className={`flex-1 flex ${styles.flexCenter}  xs:mt-0 xs:mb-0 md:my-0 my-8 relative`}>
+        <img src={model} alt="billing" className="w-[100%] xs:h-[50vh] h-[100%] relative z-[5] justify-end items-end object-contain" />
 
 
       </div>

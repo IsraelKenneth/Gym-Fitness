@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './style'
-import { Introducing, Clients, CTA, Navbar, Stats, Testimonials, Footer, Hero, Jamila, Education, Stats2 } from './components'
+import "./App.css"
+import { Introducing, CTA, Navbar, Stats, Footer, Hero, Jamila, Education, Stats2, Gallery, Packages, CTA2, FAQ, Testimonials } from './components'
 
 const App = () => {
   return (
@@ -32,15 +33,29 @@ const App = () => {
 
       <div className={`bg-[#FFFFFF] ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Testimonials />
-          <Clients />
+          <Gallery />
           <CTA />
-          <Footer />
+          <Packages />
         </div>
       </div>
+          <div className={`bg-Footer-CTA mt-10 mb-10 ${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+              <CTA2/>
+            </div>
+          </div>
+      <div className={`bg-[#FFFFFF] ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <FAQ />
+        </div>
+      </div>
+          <div className={`mt-10 mb-10 ${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+            <Testimonials />
+            <Footer />
+            </div>
+          </div>
 
-
-
+          
 
       </div>
 

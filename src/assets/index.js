@@ -39,6 +39,17 @@ import certification2 from "./Certification-2.png"
 import certification3 from "./Certification-3.png"
 import left from "./Left.png"
 import right from "./right.png"
+import Gallery0 from "./Gallery/Gallery-Item.png"
+import Gallery1 from "./Gallery/Gallery-Item-1.png"
+import Gallery2 from "./Gallery/Gallery-Item-2.png"
+import Gallery3 from "./Gallery/Gallery-Item-3.png"
+import Gallery4 from "./Gallery/Gallery-Item-4.png"
+import Gallery5 from "./Gallery/Gallery-Item-5.png"
+import Image from "./Image.png"
+import Ellipse from "./Ellipse23.png"
+import Dropdown from "./drop-down-25.svg"
+import Avatar1 from "./Avatar1.png"
+import Avatar from "./Avatar.png"
 
 export {
   airbnb,
@@ -73,5 +84,7 @@ export {
   logo0,
   logo1,
   logo2,logo3,logo4,logo5,
-  certification0, certification1, certification2, certification3, left, right
+  certification0, certification1, certification2, certification3, left, right, Gallery0, Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Ellipse, Image,
+  Dropdown,
+  Avatar, Avatar1
 };

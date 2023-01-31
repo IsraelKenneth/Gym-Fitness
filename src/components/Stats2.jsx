@@ -1,6 +1,4 @@
 import React from 'react'
-import styles from '../style'
-import { logo0, logo1, logo2, logo3, logo4, logo5 } from "../assets"
 
 
 

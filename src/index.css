@@ -153,6 +153,16 @@
     background-image: url("../src/assets/Stats.png");
 }
 
+.bg-Footer-CTA{
+    background-image: url("./assets/Mask\ Group.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
 .tranform__hero_side{
 transform: rotate(-90deg);
 
@@ -171,3 +181,4 @@ transform: rotate(-90deg);
     /* Opera */
     -o-transform: rotate(-90deg);
 }
+
